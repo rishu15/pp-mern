@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(46,45,45);
+}
+.navbar-container{
+    background-color: black;
+    color: white;
+    padding: 24px;
+    display: flex;
+
+    gap: 48px;
+
+    a:visited{
+        color: white;
+    }
+    
+    .home-container{
+        padding: 24px;
+        text-align: center;
+        color: aliceblue;
+    }
+    
+}
+.search-container{
+    margin: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-container input{
+    outline: none;
+    border: none;
+    padding: 12px 24px;
+    border-top-left-radius:12px;
+    border-bottom-left-radius:12px;
+}
